@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 
 const PageDonation = () => {
   return (
-    <section>
+    <section className="grid place-content-center h-screen">
       <h1 className="text-center font-bold text-2xl">DONACION</h1>
       <form action={donation} className="border rounded-lg p-6 w-96 grid gap-4">
         <Label>
